@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mike.http1" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".HttpUrlConnectionActivity" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".XMLDOMActivity" >
+        </activity>
+        <activity
+            android:name=".XMLSAXActivity"
+            android:label="@string/title_activity_xmlsax"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".XMLSerializerActivity" >
+        </activity>
+        <activity android:name=".ToastViewActivity" >
+        </activity>
+        <activity android:name=".ClipBoardActivity" >
+        </activity>
+        <activity android:name=".MyDialogActivity" >
+        </activity>
+        <activity android:name=".PopupWindowActivity" >
+        </activity>
+        <activity android:name=".IntentActivity" >
+        </activity>
+        <activity android:name=".IntentFilterActivity" >
+            <intent-filter>
+                <action android:name="abcde" />
+                <action android:name="bcdef" />
+
+                <category android:name="category1" />
+                <!-- <category android:name="category2"></category> -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="xyz" />
+
+                <category android:name="category1" />
+                <!-- <category android:name="category2"></category> -->
+                <!-- <category android:name="android.intent.category.DEFAULT"></category> -->
+            </intent-filter>
+        </activity>
+        <activity android:name=".BroadCastSendActivity" >
+        </activity>
+        <activity android:name=".BoradcastReceiverActivity" >
+        </activity>
+        <activity android:name=".MemoryStorageActivity" >
+        </activity>
+        <activity android:name=".SQLiteOpActivity" >
+        </activity>
+        <activity android:name=".BitmapOpActivity" >
+        </activity>
+        <activity android:name=".TweenAnimationActivity" >
+        </activity>
+        <activity android:name=".FrameAnimationActivity" >
+        </activity>
+        <activity android:name=".ActivityAnimationActivity" >
+        </activity>
+        <activity android:name=".okHttpActivity" >
+        </activity>
+        <activity android:name=".StorageDirActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

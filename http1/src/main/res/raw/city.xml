@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cities>
+    <city id="0">
+        <name>杭州</name>
+        <code>123</code>
+    </city>
+    <city id="1">
+        <name>上海</name>
+        <code>234</code>
+    </city>
+    <city id="2">
+        <name>江苏</name>
+        <code>456</code>
+    </city>
+</cities>

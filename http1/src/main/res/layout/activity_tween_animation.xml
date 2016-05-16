@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mike.http1.TweenAnimationActivity">
+<ImageView android:id="@+id/imageView"
+    android:background="@drawable/youtube"
+    android:layout_alignParentTop="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btn_mix"
+        android:text="叠加动画"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btn_rotate"
+        android:text="rotate动画"
+        android:layout_above="@id/btn_mix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btn_translate"
+        android:text="translate动画"
+        android:layout_above="@id/btn_rotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btn_scale"
+        android:text="scale动画"
+        android:layout_above="@id/btn_translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btn_alpha"
+        android:text="alpha动画"
+        android:layout_above="@id/btn_scale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

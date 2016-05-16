@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="40dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cl="http://schemas.android.com/apk/res-auto" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="16"
+        android:layout_alignParentTop="true"
+        android:paddingTop="10dp"
+        >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout android:id="@+id/points"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+    </LinearLayout>
+    
+    <mike.mylauncher.CCTableLayout.CCLayout
+        cl:rows="1"
+        cl:columns="5"
+        cl:cellwidth="72dp"
+        cl:cellheight="110dp"
+        android:background="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        >
+
+    </mike.mylauncher.CCTableLayout.CCLayout>
+
+</LinearLayout>
+

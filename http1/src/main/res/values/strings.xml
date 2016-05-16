@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Http1</string>
+    <string name="title_activity_xmlsax">XMLSAXActivity</string>
+    <array name="countries">
+        <item>China</item>
+        <item>America</item>
+        <item>Japan</item>
+    </array>
+    <string name="title_activity_popup_window">PopupWindowActivity</string>
+</resources>

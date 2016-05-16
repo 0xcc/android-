@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="72dp"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center">
+
+        <ImageView android:id="@+id/appIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <ImageView android:id="@+id/appShareIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/appLabel"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="2"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1.2"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+</LinearLayout>

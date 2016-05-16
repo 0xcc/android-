@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="LauncerStyle" parent="@android:style/Theme.Wallpaper.NoTitleBar">
+
+    </style>
+
+
+    <declare-styleable name="cclayout">
+        <attr name="rows" format="integer"></attr>
+        <attr name="columns" format="integer"></attr>
+
+        <attr name="cellwidth" format="dimension"></attr>
+        <attr name="cellheight" format="dimension"></attr>
+
+        <attr name="dragable" format="boolean"></attr>
+
+        <attr name="cellPadding" format="integer"></attr>
+        <attr name="cellPaddingLeft" format="integer"></attr>
+        <attr name="cellPaddingTop" format="integer"></attr>
+        <attr name="cellPaddingRight" format="integer"></attr>
+        <attr name="cellPaddingBottom" format="integer"></attr>
+    </declare-styleable>
+
+</resources>

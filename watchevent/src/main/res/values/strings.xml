@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WatchEvent</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_include_layout">IncludeLayoutActivity</string>
+    <string name="title_activity_value_animation">ValueAnimationActivity</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="resset">Resset</string>
+</resources>

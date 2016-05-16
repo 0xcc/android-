@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mike.http1.okHttpActivity">
+
+    <Button android:id="@+id/btn_get"
+        android:text="get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btn_post"
+        android:text="post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btn_callback"
+        android:text="callback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/btn_mediatype"
+        android:text="mediatype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/btn_multi_part_builder"
+        android:text="mulit part builder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

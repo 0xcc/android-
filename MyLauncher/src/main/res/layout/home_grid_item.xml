@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="20dp"
+    >
+
+    <ImageView android:id="@+id/appIcon"
+        android:layout_width="15dp"
+        android:layout_height="30dp" />
+
+    <mike.mylauncher.CCTableLayout.MyTextView android:id="@+id/appLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#886827ff"
+        android:text="ABCDEFGHIJK"/>
+
+</LinearLayout>

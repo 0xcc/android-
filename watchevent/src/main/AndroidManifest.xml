@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mike.watchevent" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".IncludeLayoutActivity"
+            android:label="@string/title_activity_include_layout"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:name=".ValueAnimationActivity"
+            android:label="@string/title_activity_value_animation"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity
+            android:name=".CCLayoutMainActivity"
+            android:label="@string/title_activity_value_animation"
+            android:theme="@style/AppTheme.PopupOverlay" >
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".MainActivity2" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".MyAppWidgetProvider" android:label="AppWidget自定义">
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider_info"></meta-data>
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.qin.action.CHANGE_IMAGE" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

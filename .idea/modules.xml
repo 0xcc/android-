@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyLauncher.iml" filepath="$PROJECT_DIR$/MyLauncher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyLauncher/MyLauncher-MyLauncher.iml" filepath="$PROJECT_DIR$/MyLauncher/MyLauncher-MyLauncher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialogplus/dialogplus.iml" filepath="$PROJECT_DIR$/dialogplus/dialogplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/http1/http1.iml" filepath="$PROJECT_DIR$/http1/http1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymvp/mymvp.iml" filepath="$PROJECT_DIR$/mymvp/mymvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pluginhost/pluginhost.iml" filepath="$PROJECT_DIR$/pluginhost/pluginhost.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pluginlib/pluginlib.iml" filepath="$PROJECT_DIR$/pluginlib/pluginlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pluginlib2/pluginlib2.iml" filepath="$PROJECT_DIR$/pluginlib2/pluginlib2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallpaperpick/wallpaperpick.iml" filepath="$PROJECT_DIR$/wallpaperpick/wallpaperpick.iml" />
+      <module fileurl="file://$PROJECT_DIR$/watchevent/watchevent.iml" filepath="$PROJECT_DIR$/watchevent/watchevent.iml" />
+    </modules>
+  </component>
+</project>

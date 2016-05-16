@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mike.mylauncher.CCTableLayout.CCLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cl="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appLayout"
+    cl:rows="4"
+    cl:columns="4"
+    cl:cellwidth="90dp"
+    cl:cellheight="110dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</mike.mylauncher.CCTableLayout.CCLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mike.mylauncher" >
+
+    <application
+        android:name=".MyLauncherApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true" >
+        <activity
+            android:name=".LauncherActivity"
+            android:alwaysRetainTaskState="true"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+            <!-- <category android:name="android.intent.category.HOME" /> -->
+
+
+            <!-- <action android:name="android.appwidget.action.APPWIDGET_UPDATE" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".WidgetTestActivity"
+            android:label="@string/title_activity_widget_test"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".CCLayoutTestActivity"
+            android:label="@string/title_activity_cclayout_test"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".DragAndDropTestActivity"
+            android:label="@string/title_activity_drag_and_drop_test"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".MyListViewActivity"
+            android:label="@string/title_activity_my_list_view"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:name=".NewCCLayoutActivity"
+            android:label="@string/title_activity_new_cclayout"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

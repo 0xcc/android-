@@ -1,0 +1,1 @@
+include ':MyLauncher', ':http1', ':mymvp', ':pluginlib', ':pluginhost', ':pluginlib2','wallpaperpick', ':watchevent', ':dialogplus'

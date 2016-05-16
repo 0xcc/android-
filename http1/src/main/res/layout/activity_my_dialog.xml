@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="mike.http1.MyDialogActivity">
+<Button android:id="@+id/btn_confirm_cancel"
+    android:text="确定取消对话框"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <Button android:id="@+id/btn_mystyle_confirm_cancel"
+        android:text="自定义确定取消对话框"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<Button android:id="@+id/btn_multi"
+    android:text="多按钮对话框"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<Button android:id="@+id/list_dialog"
+    android:text="列表框"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/progress_dialog"
+        android:text="进度条框"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<Button android:id="@+id/single_choice_dialog"
+    android:text="单选列表框"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+<Button android:id="@+id/mulit_choice_dialog"
+    android:text="多选列表框"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+<Button android:id="@+id/styled_list_dialog"
+    android:text="自定义列表框"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+<Button android:id="@+id/read_progress_dialog"
+    android:text="读取进度条框"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>
